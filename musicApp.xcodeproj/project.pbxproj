@@ -44,6 +44,7 @@
 				E19CCAAD2BA9AF3C008E4E48 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E19CCAAD2BA9AF3C008E4E48 /* Products */ = {
 			isa = PBXGroup;
