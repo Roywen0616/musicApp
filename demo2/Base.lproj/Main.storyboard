@@ -543,7 +543,7 @@ Oh 沒能陪你到最後 別再歎息皺眉頭
                                 <rect key="frame" x="76" y="82" width="240" height="709"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">最近一直很好心情 不知道什么原因
+                                <string key="text">最近一直很好心情 不知道什么原因
 我现在这一种心情 我想要唱给你听
 看着窗外的小星星 心里想着我的秘密
 算不算爱我不太确定 我只知道我在想你
@@ -575,7 +575,7 @@ Ha~ 这一刻我真的想说明
 这是种别人无法理解的特殊感情
 Ha~ 我要让全世界都清晰
 我心里的秘密 是我会一直深爱着你
-深爱着你</mutableString>
+深爱着你</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -602,7 +602,7 @@ Ha~ 我要让全世界都清晰
                                 <rect key="frame" x="76" y="82" width="240" height="709"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">No lie
+                                <string key="text">No lie
 Cruising down street with my brothers from trenches
 小镇的男孩儿现在做着嘻哈这门生意
 我们不姓谢但也是老板儿
@@ -695,7 +695,7 @@ Cruising down street with my brothers from trenches
 No face no case 你抓不住
 在成都像活在Hollywood
 It's Digi Ghetto Couple Hunnid 的下一步
-让嘻哈生意让我变成个大地主</mutableString>
+让嘻哈生意让我变成个大地主</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -737,7 +737,7 @@ It's Digi Ghetto Couple Hunnid 的下一步
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2oi-Wy-gt1">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2oi-Wy-gt1">
                                 <rect key="frame" x="16" y="103" width="361" height="593"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -762,7 +762,7 @@ It's Digi Ghetto Couple Hunnid 的下一步
                                                         </buttonConfiguration>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVu-3S-ZhK">
                                                 <rect key="frame" x="0.0" y="29" width="361" height="177"/>
@@ -817,7 +817,7 @@ It's Digi Ghetto Couple Hunnid 的下一步
                                                         <buttonConfiguration key="configuration" style="plain" title="歌詞"/>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="Q0D-oF-eYG"/>
@@ -835,7 +835,7 @@ It's Digi Ghetto Couple Hunnid 的下一步
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ijI-aL-XOV"/>
-                        <color key="backgroundColor" red="0.452822632" green="0.71424257400000002" blue="0.97059897039999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" title="music" id="brU-TT-gBv">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="fJ1-cD-3xm"/>
@@ -866,9 +866,6 @@ It's Digi Ghetto Couple Hunnid 的下一步
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

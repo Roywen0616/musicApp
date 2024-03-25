@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E19CCAAC2BA9AF3C008E4E48 /* demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19CCAAC2BA9AF3C008E4E48 /* musicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19CCAAF2BA9AF3C008E4E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19CCAB12BA9AF3C008E4E48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E19CCAB32BA9AF3C008E4E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		E19CCAAD2BA9AF3C008E4E48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E19CCAAC2BA9AF3C008E4E48 /* demo2.app */,
+				E19CCAAC2BA9AF3C008E4E48 /* musicApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E19CCAAB2BA9AF3C008E4E48 /* demo2 */ = {
+		E19CCAAB2BA9AF3C008E4E48 /* musicApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E19CCAC02BA9AF3D008E4E48 /* Build configuration list for PBXNativeTarget "demo2" */;
+			buildConfigurationList = E19CCAC02BA9AF3D008E4E48 /* Build configuration list for PBXNativeTarget "musicApp" */;
 			buildPhases = (
 				E19CCAA82BA9AF3C008E4E48 /* Sources */,
 				E19CCAA92BA9AF3C008E4E48 /* Frameworks */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = demo2;
+			name = musicApp;
 			productName = demo2;
-			productReference = E19CCAAC2BA9AF3C008E4E48 /* demo2.app */;
+			productReference = E19CCAAC2BA9AF3C008E4E48 /* musicApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E19CCAA72BA9AF3C008E4E48 /* Build configuration list for PBXProject "demo2" */;
+			buildConfigurationList = E19CCAA72BA9AF3C008E4E48 /* Build configuration list for PBXProject "musicApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E19CCAAB2BA9AF3C008E4E48 /* demo2 */,
+				E19CCAAB2BA9AF3C008E4E48 /* musicApp */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E19CCAA72BA9AF3C008E4E48 /* Build configuration list for PBXProject "demo2" */ = {
+		E19CCAA72BA9AF3C008E4E48 /* Build configuration list for PBXProject "musicApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E19CCABE2BA9AF3D008E4E48 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E19CCAC02BA9AF3D008E4E48 /* Build configuration list for PBXNativeTarget "demo2" */ = {
+		E19CCAC02BA9AF3D008E4E48 /* Build configuration list for PBXNativeTarget "musicApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E19CCAC12BA9AF3D008E4E48 /* Debug */,
